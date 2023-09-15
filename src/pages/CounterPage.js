@@ -74,8 +74,10 @@ function CounterPage({ initialCount }) {
 
     event.preventDefault();
 
-    // setCount(count + valueToAdd);
-    // setValueToAdd(0);
+    dispatch({
+      type: ADD_VALUE_TO_COUNT,
+      payload: 
+    });
   }
 
   return (
